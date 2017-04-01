@@ -95,5 +95,7 @@ public class Trie {
             }
         }
     }
-
+    public boolean isEmpty(){
+        return root.getChildren().size() == 0;
+    }
 }
